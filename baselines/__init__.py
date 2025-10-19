@@ -1,0 +1,3 @@
+"""
+Baseline methods for comparison
+"""
