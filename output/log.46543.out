@@ -1,0 +1,242 @@
+Environment: Lilei
+Python location: /home/liqinglei/miniconda3/envs/Lilei/bin/python
+Job started at: 2025年 10月 18日 星期六 22:25:30 CST
+Running on: dm-server-2
+**************************************************
+Baseline: MoCo (Momentum Contrast)
+batch_size: 32
+Dataset: CUB200, Model: efficientnet-b3
+Temperature: 0.07
+Feature dim: 128
+Momentum: 0.999
+Queue size: 4096
+**************************************************
+Training: 8084, Val: 1777, Test: 1927
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 1:
+  Supervised Loss=5.2923, MoCo Loss=5.7414
+  Train Acc=0.95%
+  Val Acc=1.80%, Test Acc=1.92%, Val Top5=6.36%, Test Top5=7.01%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 2:
+  Supervised Loss=5.1636, MoCo Loss=6.2973
+  Train Acc=3.66%
+  Val Acc=6.53%, Test Acc=7.89%, Val Top5=21.33%, Test Top5=22.47%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 3:
+  Supervised Loss=4.8128, MoCo Loss=6.0253
+  Train Acc=12.69%
+  Val Acc=19.58%, Test Acc=20.97%, Val Top5=48.56%, Test Top5=47.43%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 4:
+  Supervised Loss=4.1240, MoCo Loss=5.5026
+  Train Acc=22.48%
+  Val Acc=24.70%, Test Acc=25.95%, Val Top5=55.15%, Test Top5=56.10%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 5:
+  Supervised Loss=3.3473, MoCo Loss=4.8784
+  Train Acc=33.40%
+  Val Acc=33.60%, Test Acc=34.41%, Val Top5=67.53%, Test Top5=66.27%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 6:
+  Supervised Loss=2.7108, MoCo Loss=4.3834
+  Train Acc=42.16%
+  Val Acc=40.63%, Test Acc=39.28%, Val Top5=71.75%, Test Top5=71.41%
+
+Epoch 7:
+  Supervised Loss=2.3074, MoCo Loss=3.8575
+  Train Acc=48.92%
+  Val Acc=38.15%, Test Acc=37.62%, Val Top5=71.86%, Test Top5=70.16%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 8:
+  Supervised Loss=2.0522, MoCo Loss=3.5381
+  Train Acc=53.57%
+  Val Acc=45.08%, Test Acc=47.22%, Val Top5=77.49%, Test Top5=76.65%
+
+Epoch 9:
+  Supervised Loss=1.8608, MoCo Loss=3.2688
+  Train Acc=57.00%
+  Val Acc=40.80%, Test Acc=41.57%, Val Top5=74.85%, Test Top5=73.53%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 10:
+  Supervised Loss=1.7194, MoCo Loss=3.0357
+  Train Acc=60.37%
+  Val Acc=50.93%, Test Acc=50.70%, Val Top5=81.09%, Test Top5=82.67%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 11:
+  Supervised Loss=1.5943, MoCo Loss=2.8231
+  Train Acc=62.14%
+  Val Acc=51.72%, Test Acc=52.36%, Val Top5=82.50%, Test Top5=81.63%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 12:
+  Supervised Loss=1.4732, MoCo Loss=2.7309
+  Train Acc=65.30%
+  Val Acc=52.56%, Test Acc=52.98%, Val Top5=84.02%, Test Top5=83.50%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 13:
+  Supervised Loss=1.3997, MoCo Loss=2.5864
+  Train Acc=66.09%
+  Val Acc=54.64%, Test Acc=56.36%, Val Top5=85.42%, Test Top5=84.22%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 14:
+  Supervised Loss=1.3573, MoCo Loss=2.4882
+  Train Acc=67.42%
+  Val Acc=55.04%, Test Acc=55.68%, Val Top5=84.47%, Test Top5=85.37%
+
+Epoch 15:
+  Supervised Loss=1.2752, MoCo Loss=2.4060
+  Train Acc=69.21%
+  Val Acc=52.22%, Test Acc=51.32%, Val Top5=81.77%, Test Top5=82.20%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 16:
+  Supervised Loss=1.2250, MoCo Loss=2.2565
+  Train Acc=71.04%
+  Val Acc=59.14%, Test Acc=60.35%, Val Top5=86.83%, Test Top5=86.40%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 17:
+  Supervised Loss=1.1814, MoCo Loss=2.2229
+  Train Acc=71.44%
+  Val Acc=63.20%, Test Acc=62.84%, Val Top5=88.58%, Test Top5=88.74%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 18:
+  Supervised Loss=1.1739, MoCo Loss=2.1284
+  Train Acc=72.01%
+  Val Acc=63.87%, Test Acc=65.44%, Val Top5=88.63%, Test Top5=89.93%
+
+Epoch 19:
+  Supervised Loss=1.1431, MoCo Loss=2.0956
+  Train Acc=72.45%
+  Val Acc=59.65%, Test Acc=61.24%, Val Top5=86.78%, Test Top5=87.49%
+
+Epoch 20:
+  Supervised Loss=1.1062, MoCo Loss=1.9586
+  Train Acc=73.39%
+  Val Acc=62.69%, Test Acc=64.87%, Val Top5=89.31%, Test Top5=89.98%
+
+Epoch 21:
+  Supervised Loss=1.0712, MoCo Loss=1.8786
+  Train Acc=74.11%
+  Val Acc=61.73%, Test Acc=64.40%, Val Top5=89.42%, Test Top5=89.47%
+
+Epoch 22:
+  Supervised Loss=1.0522, MoCo Loss=1.9578
+  Train Acc=74.54%
+  Val Acc=61.56%, Test Acc=63.05%, Val Top5=87.68%, Test Top5=89.05%
+
+Epoch 23:
+  Supervised Loss=1.0642, MoCo Loss=1.8867
+  Train Acc=74.47%
+  Val Acc=63.25%, Test Acc=64.76%, Val Top5=89.25%, Test Top5=89.98%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 24:
+  Supervised Loss=1.0785, MoCo Loss=1.8463
+  Train Acc=74.34%
+  Val Acc=65.28%, Test Acc=67.67%, Val Top5=89.08%, Test Top5=90.81%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 25:
+  Supervised Loss=1.0577, MoCo Loss=1.7818
+  Train Acc=75.02%
+  Val Acc=66.97%, Test Acc=68.34%, Val Top5=90.55%, Test Top5=91.75%
+
+Epoch 26:
+  Supervised Loss=1.0604, MoCo Loss=1.7599
+  Train Acc=75.33%
+  Val Acc=65.45%, Test Acc=66.84%, Val Top5=89.76%, Test Top5=90.35%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 27:
+  Supervised Loss=1.1112, MoCo Loss=1.6960
+  Train Acc=74.34%
+  Val Acc=67.70%, Test Acc=69.95%, Val Top5=91.28%, Test Top5=92.01%
+
+Epoch 28:
+  Supervised Loss=1.1114, MoCo Loss=1.6973
+  Train Acc=73.78%
+  Val Acc=66.40%, Test Acc=67.72%, Val Top5=91.28%, Test Top5=91.59%
+
+Epoch 29:
+  Supervised Loss=1.1577, MoCo Loss=1.6860
+  Train Acc=73.08%
+  Val Acc=66.40%, Test Acc=66.01%, Val Top5=90.10%, Test Top5=90.24%
+
+Epoch 30:
+  Supervised Loss=1.2143, MoCo Loss=1.6300
+  Train Acc=72.04%
+  Val Acc=67.59%, Test Acc=68.03%, Val Top5=89.98%, Test Top5=91.33%
+
+==================================================
+Training Finished!
+Best Val Acc: 67.70%
+Best Test Acc: 69.95%
+==================================================

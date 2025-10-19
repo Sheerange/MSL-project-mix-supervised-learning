@@ -1,0 +1,286 @@
+Environment: Lilei
+Python location: /home/liqinglei/miniconda3/envs/Lilei/bin/python
+Job started at: 2025年 10月 18日 星期六 22:23:02 CST
+Running on: dm-server-9
+**************************************************
+Baseline: CoTTA (Continual Test-Time Adaptation)
+batch_size: 32
+Dataset: CUB200, Model: efficientnet-b3
+CoTTA learning rate: 0.001
+EMA decay: 0.999
+Restoration probability: 0.01
+Lambda_u: 1.0
+**************************************************
+Training: 8084, Val: 1777, Test: 1927
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 1:
+  Supervised Loss=5.3001, CoTTA Loss=5.2715
+  Train Acc=0.84%
+  Val Acc=0.56%, Test Acc=0.62%, Val Top5=2.87%, Test Top5=3.11%
+
+Epoch 2:
+  Supervised Loss=5.1515, CoTTA Loss=5.2550
+  Train Acc=3.46%
+  Val Acc=0.39%, Test Acc=0.78%, Val Top5=3.60%, Test Top5=3.79%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 3:
+  Supervised Loss=4.6348, CoTTA Loss=5.0138
+  Train Acc=16.14%
+  Val Acc=1.46%, Test Acc=1.61%, Val Top5=6.47%, Test Top5=6.90%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 4:
+  Supervised Loss=3.4528, CoTTA Loss=4.0194
+  Train Acc=32.67%
+  Val Acc=4.45%, Test Acc=5.29%, Val Top5=15.19%, Test Top5=15.00%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 5:
+  Supervised Loss=2.4413, CoTTA Loss=3.1880
+  Train Acc=45.70%
+  Val Acc=13.06%, Test Acc=12.66%, Val Top5=30.78%, Test Top5=31.66%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 6:
+  Supervised Loss=2.0134, CoTTA Loss=2.8412
+  Train Acc=55.43%
+  Val Acc=23.75%, Test Acc=22.42%, Val Top5=49.80%, Test Top5=50.80%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 7:
+  Supervised Loss=1.6368, CoTTA Loss=2.4665
+  Train Acc=62.23%
+  Val Acc=35.12%, Test Acc=34.61%, Val Top5=64.21%, Test Top5=66.22%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 8:
+  Supervised Loss=1.4523, CoTTA Loss=2.1516
+  Train Acc=65.65%
+  Val Acc=44.85%, Test Acc=44.47%, Val Top5=75.46%, Test Top5=76.70%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 9:
+  Supervised Loss=1.2547, CoTTA Loss=1.8591
+  Train Acc=69.95%
+  Val Acc=52.11%, Test Acc=52.26%, Val Top5=82.22%, Test Top5=82.77%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 10:
+  Supervised Loss=1.1536, CoTTA Loss=1.9074
+  Train Acc=71.34%
+  Val Acc=57.96%, Test Acc=58.02%, Val Top5=86.27%, Test Top5=86.04%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 11:
+  Supervised Loss=1.1172, CoTTA Loss=1.6888
+  Train Acc=73.33%
+  Val Acc=62.63%, Test Acc=62.69%, Val Top5=88.97%, Test Top5=89.05%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 12:
+  Supervised Loss=1.0194, CoTTA Loss=1.5362
+  Train Acc=75.46%
+  Val Acc=66.74%, Test Acc=65.96%, Val Top5=90.94%, Test Top5=90.40%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 13:
+  Supervised Loss=0.9418, CoTTA Loss=1.4744
+  Train Acc=76.94%
+  Val Acc=69.39%, Test Acc=69.07%, Val Top5=92.35%, Test Top5=92.06%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 14:
+  Supervised Loss=0.8783, CoTTA Loss=1.4228
+  Train Acc=78.06%
+  Val Acc=71.24%, Test Acc=71.04%, Val Top5=93.42%, Test Top5=93.36%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 15:
+  Supervised Loss=0.8309, CoTTA Loss=1.5394
+  Train Acc=78.67%
+  Val Acc=73.49%, Test Acc=72.50%, Val Top5=93.92%, Test Top5=94.45%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 16:
+  Supervised Loss=0.8468, CoTTA Loss=1.4664
+  Train Acc=80.13%
+  Val Acc=74.85%, Test Acc=73.90%, Val Top5=94.65%, Test Top5=94.71%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 17:
+  Supervised Loss=0.8232, CoTTA Loss=1.4150
+  Train Acc=80.53%
+  Val Acc=76.03%, Test Acc=75.35%, Val Top5=94.94%, Test Top5=95.12%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 18:
+  Supervised Loss=0.7831, CoTTA Loss=1.4217
+  Train Acc=81.62%
+  Val Acc=77.21%, Test Acc=76.39%, Val Top5=95.22%, Test Top5=95.33%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 19:
+  Supervised Loss=0.7452, CoTTA Loss=1.2803
+  Train Acc=82.15%
+  Val Acc=78.45%, Test Acc=77.79%, Val Top5=95.61%, Test Top5=95.54%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 20:
+  Supervised Loss=0.7285, CoTTA Loss=1.3366
+  Train Acc=82.41%
+  Val Acc=79.85%, Test Acc=78.83%, Val Top5=95.61%, Test Top5=95.85%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 21:
+  Supervised Loss=0.6955, CoTTA Loss=1.2604
+  Train Acc=83.40%
+  Val Acc=80.36%, Test Acc=79.50%, Val Top5=95.67%, Test Top5=96.00%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 22:
+  Supervised Loss=0.6458, CoTTA Loss=1.1889
+  Train Acc=84.38%
+  Val Acc=80.75%, Test Acc=79.71%, Val Top5=95.89%, Test Top5=96.00%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 23:
+  Supervised Loss=0.6465, CoTTA Loss=1.2081
+  Train Acc=84.88%
+  Val Acc=81.04%, Test Acc=80.33%, Val Top5=96.12%, Test Top5=96.16%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 24:
+  Supervised Loss=0.6485, CoTTA Loss=1.2739
+  Train Acc=84.85%
+  Val Acc=81.37%, Test Acc=80.85%, Val Top5=96.34%, Test Top5=96.26%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 25:
+  Supervised Loss=0.6378, CoTTA Loss=1.1814
+  Train Acc=84.92%
+  Val Acc=81.71%, Test Acc=81.37%, Val Top5=96.57%, Test Top5=96.32%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 26:
+  Supervised Loss=0.6056, CoTTA Loss=1.1298
+  Train Acc=85.97%
+  Val Acc=82.16%, Test Acc=82.04%, Val Top5=96.51%, Test Top5=96.32%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 27:
+  Supervised Loss=0.5762, CoTTA Loss=1.1012
+  Train Acc=86.67%
+  Val Acc=82.44%, Test Acc=82.51%, Val Top5=96.68%, Test Top5=96.42%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 28:
+  Supervised Loss=0.5948, CoTTA Loss=1.1014
+  Train Acc=85.74%
+  Val Acc=82.72%, Test Acc=82.93%, Val Top5=96.74%, Test Top5=96.63%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 29:
+  Supervised Loss=0.6067, CoTTA Loss=1.0796
+  Train Acc=85.65%
+  Val Acc=82.84%, Test Acc=83.39%, Val Top5=96.79%, Test Top5=96.57%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 30:
+  Supervised Loss=0.5991, CoTTA Loss=1.2210
+  Train Acc=86.18%
+  Val Acc=83.06%, Test Acc=83.45%, Val Top5=96.74%, Test Top5=96.68%
+
+==================================================
+Training Finished!
+Best Val Acc: 83.06%
+Best Test Acc: 83.45%
+==================================================

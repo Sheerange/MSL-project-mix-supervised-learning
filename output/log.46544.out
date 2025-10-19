@@ -1,0 +1,241 @@
+Environment: Lilei
+Python location: /home/liqinglei/miniconda3/envs/Lilei/bin/python
+Job started at: 2025年 10月 18日 星期六 22:25:54 CST
+Running on: dm-server-8
+**************************************************
+Baseline: SimCLR (Self-Supervised Contrastive Learning)
+batch_size: 32
+Dataset: CUB200, Model: efficientnet-b3
+Temperature: 0.5
+Feature dim: 128
+Lambda_u: 1.0
+**************************************************
+Training: 8084, Val: 1777, Test: 1927
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 1:
+  Supervised Loss=5.2888, SimCLR Loss=3.0591
+  Train Acc=0.54%
+  Val Acc=1.86%, Test Acc=1.45%, Val Top5=6.47%, Test Top5=5.29%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 2:
+  Supervised Loss=5.0806, SimCLR Loss=2.7312
+  Train Acc=4.09%
+  Val Acc=8.16%, Test Acc=7.52%, Val Top5=27.69%, Test Top5=25.64%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 3:
+  Supervised Loss=4.5381, SimCLR Loss=2.6708
+  Train Acc=10.54%
+  Val Acc=14.69%, Test Acc=13.65%, Val Top5=40.80%, Test Top5=39.60%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 4:
+  Supervised Loss=3.8452, SimCLR Loss=2.6520
+  Train Acc=17.52%
+  Val Acc=20.93%, Test Acc=20.39%, Val Top5=51.44%, Test Top5=50.08%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 5:
+  Supervised Loss=3.2561, SimCLR Loss=2.6220
+  Train Acc=25.87%
+  Val Acc=22.06%, Test Acc=22.78%, Val Top5=56.50%, Test Top5=54.90%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 6:
+  Supervised Loss=2.7845, SimCLR Loss=2.6231
+  Train Acc=33.87%
+  Val Acc=26.56%, Test Acc=25.90%, Val Top5=60.55%, Test Top5=59.99%
+
+Epoch 7:
+  Supervised Loss=2.4297, SimCLR Loss=2.6137
+  Train Acc=40.40%
+  Val Acc=24.70%, Test Acc=24.13%, Val Top5=58.08%, Test Top5=56.56%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 8:
+  Supervised Loss=2.1741, SimCLR Loss=2.6062
+  Train Acc=45.79%
+  Val Acc=28.64%, Test Acc=27.45%, Val Top5=63.03%, Test Top5=58.74%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 9:
+  Supervised Loss=1.9691, SimCLR Loss=2.5846
+  Train Acc=51.16%
+  Val Acc=33.54%, Test Acc=32.38%, Val Top5=67.53%, Test Top5=66.22%
+
+Epoch 10:
+  Supervised Loss=1.7951, SimCLR Loss=2.5814
+  Train Acc=54.35%
+  Val Acc=33.37%, Test Acc=31.76%, Val Top5=66.63%, Test Top5=67.05%
+
+Epoch 11:
+  Supervised Loss=1.6701, SimCLR Loss=2.5826
+  Train Acc=57.55%
+  Val Acc=29.04%, Test Acc=29.84%, Val Top5=63.98%, Test Top5=64.24%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 12:
+  Supervised Loss=1.5971, SimCLR Loss=2.5618
+  Train Acc=59.19%
+  Val Acc=37.65%, Test Acc=37.88%, Val Top5=72.65%, Test Top5=71.93%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 13:
+  Supervised Loss=1.4992, SimCLR Loss=2.5526
+  Train Acc=61.50%
+  Val Acc=41.53%, Test Acc=40.43%, Val Top5=74.28%, Test Top5=74.99%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 14:
+  Supervised Loss=1.3977, SimCLR Loss=2.5538
+  Train Acc=64.26%
+  Val Acc=42.71%, Test Acc=42.29%, Val Top5=76.87%, Test Top5=75.77%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 15:
+  Supervised Loss=1.4089, SimCLR Loss=2.5431
+  Train Acc=64.57%
+  Val Acc=45.30%, Test Acc=46.50%, Val Top5=77.88%, Test Top5=77.89%
+
+Epoch 16:
+  Supervised Loss=1.3251, SimCLR Loss=2.5417
+  Train Acc=66.16%
+  Val Acc=41.87%, Test Acc=45.41%, Val Top5=77.66%, Test Top5=79.09%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 17:
+  Supervised Loss=1.2874, SimCLR Loss=2.5430
+  Train Acc=67.17%
+  Val Acc=48.45%, Test Acc=49.71%, Val Top5=81.71%, Test Top5=82.30%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 18:
+  Supervised Loss=1.2750, SimCLR Loss=2.5375
+  Train Acc=67.24%
+  Val Acc=51.10%, Test Acc=53.81%, Val Top5=84.19%, Test Top5=84.54%
+
+Epoch 19:
+  Supervised Loss=1.2269, SimCLR Loss=2.5376
+  Train Acc=68.60%
+  Val Acc=46.43%, Test Acc=47.43%, Val Top5=79.97%, Test Top5=81.11%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 20:
+  Supervised Loss=1.2161, SimCLR Loss=2.5273
+  Train Acc=68.80%
+  Val Acc=54.08%, Test Acc=58.59%, Val Top5=84.19%, Test Top5=87.44%
+
+Epoch 21:
+  Supervised Loss=1.1965, SimCLR Loss=2.5228
+  Train Acc=69.85%
+  Val Acc=51.60%, Test Acc=55.06%, Val Top5=82.72%, Test Top5=85.47%
+
+Epoch 22:
+  Supervised Loss=1.1681, SimCLR Loss=2.5281
+  Train Acc=69.72%
+  Val Acc=53.52%, Test Acc=56.67%, Val Top5=83.12%, Test Top5=84.43%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 23:
+  Supervised Loss=1.1882, SimCLR Loss=2.5277
+  Train Acc=69.71%
+  Val Acc=55.94%, Test Acc=57.45%, Val Top5=84.52%, Test Top5=87.08%
+
+Epoch 24:
+  Supervised Loss=1.2087, SimCLR Loss=2.5157
+  Train Acc=69.22%
+  Val Acc=55.09%, Test Acc=58.23%, Val Top5=84.19%, Test Top5=87.75%
+
+Epoch 25:
+  Supervised Loss=1.2051, SimCLR Loss=2.5142
+  Train Acc=69.47%
+  Val Acc=54.19%, Test Acc=57.39%, Val Top5=84.81%, Test Top5=86.56%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 26:
+  Supervised Loss=1.2715, SimCLR Loss=2.5091
+  Train Acc=68.00%
+  Val Acc=56.27%, Test Acc=59.21%, Val Top5=85.26%, Test Top5=86.92%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 27:
+  Supervised Loss=1.2747, SimCLR Loss=2.5029
+  Train Acc=68.06%
+  Val Acc=56.33%, Test Acc=60.51%, Val Top5=84.92%, Test Top5=87.03%
+
+Epoch 28:
+  Supervised Loss=1.3713, SimCLR Loss=2.5059
+  Train Acc=65.81%
+  Val Acc=54.70%, Test Acc=57.76%, Val Top5=83.74%, Test Top5=86.14%
+
+Epoch 29:
+  Supervised Loss=1.4758, SimCLR Loss=2.4955
+  Train Acc=62.51%
+  Val Acc=53.12%, Test Acc=56.62%, Val Top5=82.16%, Test Top5=84.64%
+
+Epoch 30:
+  Supervised Loss=1.5909, SimCLR Loss=2.4981
+  Train Acc=59.85%
+  Val Acc=50.14%, Test Acc=52.15%, Val Top5=81.77%, Test Top5=81.99%
+
+==================================================
+Training Finished!
+Best Val Acc: 56.33%
+Best Test Acc: 60.51%
+==================================================

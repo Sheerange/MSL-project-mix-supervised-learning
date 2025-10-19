@@ -1,0 +1,284 @@
+Environment: Lilei
+Python location: /home/liqinglei/miniconda3/envs/Lilei/bin/python
+Job started at: 2025年 10月 18日 星期六 16:53:36 CST
+Running on: dm-server-10
+**************************************************
+Baseline: FixMatch
+batch_size: 32
+Dataset: CUB200, Model: efficientnet-b3
+Confidence threshold: 0.95
+Lambda_u (unsupervised weight): 1.0
+**************************************************
+Training: 8084, Val: 1777, Test: 1927
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 1:
+  Train Loss=5.3181 (Sup=5.3181, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=0.28%
+  Val Acc=0.45%, Test Acc=0.47%, Val Top5=2.48%, Test Top5=2.39%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 2:
+  Train Loss=5.2976 (Sup=5.2976, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=0.84%
+  Val Acc=0.96%, Test Acc=0.73%, Val Top5=3.43%, Test Top5=3.01%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 3:
+  Train Loss=5.2825 (Sup=5.2825, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=0.73%
+  Val Acc=1.35%, Test Acc=0.99%, Val Top5=4.11%, Test Top5=4.05%
+
+Epoch 4:
+  Train Loss=5.2619 (Sup=5.2619, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=1.23%
+  Val Acc=1.35%, Test Acc=1.45%, Val Top5=5.91%, Test Top5=6.28%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 5:
+  Train Loss=5.2403 (Sup=5.2403, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=1.28%
+  Val Acc=2.19%, Test Acc=2.39%, Val Top5=8.44%, Test Top5=9.03%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 6:
+  Train Loss=5.2221 (Sup=5.2221, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=1.95%
+  Val Acc=3.49%, Test Acc=3.84%, Val Top5=11.65%, Test Top5=12.25%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 7:
+  Train Loss=5.1869 (Sup=5.1869, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=2.62%
+  Val Acc=5.68%, Test Acc=5.97%, Val Top5=16.83%, Test Top5=17.38%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 8:
+  Train Loss=5.1481 (Sup=5.1481, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=4.63%
+  Val Acc=9.06%, Test Acc=9.03%, Val Top5=25.10%, Test Top5=24.49%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 9:
+  Train Loss=5.0856 (Sup=5.0856, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=5.97%
+  Val Acc=12.55%, Test Acc=13.34%, Val Top5=31.40%, Test Top5=31.29%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 10:
+  Train Loss=5.0196 (Sup=5.0196, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=9.15%
+  Val Acc=17.16%, Test Acc=17.75%, Val Top5=40.24%, Test Top5=40.01%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 11:
+  Train Loss=4.9475 (Sup=4.9475, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=12.11%
+  Val Acc=22.00%, Test Acc=22.21%, Val Top5=48.73%, Test Top5=48.42%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 12:
+  Train Loss=4.8383 (Sup=4.8383, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=15.12%
+  Val Acc=25.66%, Test Acc=26.93%, Val Top5=55.60%, Test Top5=55.37%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 13:
+  Train Loss=4.6851 (Sup=4.6851, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=18.53%
+  Val Acc=29.21%, Test Acc=29.06%, Val Top5=59.65%, Test Top5=59.57%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 14:
+  Train Loss=4.5096 (Sup=4.5096, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=23.66%
+  Val Acc=32.75%, Test Acc=32.33%, Val Top5=63.53%, Test Top5=64.50%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 15:
+  Train Loss=4.2828 (Sup=4.2828, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=25.33%
+  Val Acc=34.67%, Test Acc=33.99%, Val Top5=66.91%, Test Top5=65.75%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 16:
+  Train Loss=4.0364 (Sup=4.0364, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=26.84%
+  Val Acc=37.65%, Test Acc=35.24%, Val Top5=71.02%, Test Top5=70.11%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 17:
+  Train Loss=3.7560 (Sup=3.7560, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=30.97%
+  Val Acc=40.12%, Test Acc=39.70%, Val Top5=75.63%, Test Top5=74.52%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 18:
+  Train Loss=3.5384 (Sup=3.5384, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=31.92%
+  Val Acc=45.24%, Test Acc=45.10%, Val Top5=78.78%, Test Top5=77.94%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 19:
+  Train Loss=3.2921 (Sup=3.2921, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=37.00%
+  Val Acc=50.76%, Test Acc=50.23%, Val Top5=82.89%, Test Top5=81.16%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 20:
+  Train Loss=3.0519 (Sup=3.0519, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=41.02%
+  Val Acc=51.49%, Test Acc=52.21%, Val Top5=83.46%, Test Top5=84.07%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 21:
+  Train Loss=2.8023 (Sup=2.8023, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=44.53%
+  Val Acc=56.44%, Test Acc=56.82%, Val Top5=85.59%, Test Top5=85.26%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 22:
+  Train Loss=2.6589 (Sup=2.6506, Unsup=0.0083, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=45.09%
+  Val Acc=58.58%, Test Acc=59.11%, Val Top5=88.75%, Test Top5=88.17%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 23:
+  Train Loss=2.4772 (Sup=2.4772, Unsup=0.0000, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=49.33%
+  Val Acc=60.66%, Test Acc=60.66%, Val Top5=88.58%, Test Top5=87.86%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 24:
+  Train Loss=2.3538 (Sup=2.3489, Unsup=0.0049, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=49.55%
+  Val Acc=64.38%, Test Acc=62.64%, Val Top5=90.43%, Test Top5=90.40%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 25:
+  Train Loss=2.2135 (Sup=2.2035, Unsup=0.0100, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=54.24%
+  Val Acc=66.80%, Test Acc=64.40%, Val Top5=91.67%, Test Top5=90.97%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 26:
+  Train Loss=2.0683 (Sup=2.0635, Unsup=0.0049, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=55.47%
+  Val Acc=67.70%, Test Acc=66.32%, Val Top5=91.62%, Test Top5=91.33%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 27:
+  Train Loss=2.0042 (Sup=1.9833, Unsup=0.0209, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=55.58%
+  Val Acc=68.82%, Test Acc=67.41%, Val Top5=92.07%, Test Top5=92.32%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 28:
+  Train Loss=1.9625 (Sup=1.9334, Unsup=0.0292, Lambda_u=1.000, Mask ratio=0.00)
+  Train Acc=57.20%
+  Val Acc=69.56%, Test Acc=68.86%, Val Top5=92.74%, Test Top5=92.63%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 29:
+  Train Loss=1.9060 (Sup=1.8695, Unsup=0.0365, Lambda_u=1.000, Mask ratio=0.01)
+  Train Acc=57.92%
+  Val Acc=69.84%, Test Acc=69.07%, Val Top5=92.80%, Test Top5=92.94%
+
+==================================================
+Better model found!
+==================================================
+
+Epoch 30:
+  Train Loss=1.7656 (Sup=1.6995, Unsup=0.0661, Lambda_u=1.000, Mask ratio=0.01)
+  Train Acc=60.27%
+  Val Acc=71.86%, Test Acc=71.15%, Val Top5=93.87%, Test Top5=93.46%
+
+==================================================
+Training Finished!
+Best Val Acc: 71.86%
+Best Test Acc: 71.15%
+==================================================

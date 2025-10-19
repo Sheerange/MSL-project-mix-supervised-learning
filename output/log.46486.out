@@ -1,0 +1,228 @@
+Environment: Lilei
+Python location: /home/liqinglei/miniconda3/envs/Lilei/bin/python
+Job started at: 2025年 10月 18日 星期六 17:05:05 CST
+Running on: dm-server-2
+**************************************************
+Baseline: Pseudo-Labeling
+batch_size: 64
+Dataset: CUB200, Model: efficientnet-b3
+Confidence threshold: 0.9
+Pseudo-label start epoch: 5
+**************************************************
+Training: 8084, Val: 1777, Test: 1927
+
+==================================================
+Better model found!
+==================================================
+Epoch 1: Train Loss=5.3114, Train Acc=0.57%, Val Acc=0.90%, Test Acc=1.19%, Val Top5=3.88%, Test Top5=4.62%
+
+==================================================
+Better model found!
+==================================================
+Epoch 2: Train Loss=5.2455, Train Acc=1.35%, Val Acc=4.33%, Test Acc=4.46%, Val Top5=14.12%, Test Top5=14.12%
+
+==================================================
+Better model found!
+==================================================
+Epoch 3: Train Loss=5.1247, Train Acc=4.77%, Val Acc=16.43%, Test Acc=17.07%, Val Top5=39.34%, Test Top5=39.49%
+
+==================================================
+Better model found!
+==================================================
+Epoch 4: Train Loss=4.8689, Train Acc=14.45%, Val Acc=31.34%, Test Acc=30.20%, Val Top5=63.37%, Test Top5=63.78%
+
+==================================================
+Better model found!
+==================================================
+Epoch 5: Train Loss=4.3032, Train Acc=26.22%, Val Acc=39.11%, Test Acc=38.97%, Val Top5=72.37%, Test Top5=72.13%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 0/0 correct (0.00%)
+No high-confidence pseudo-labels generated, using original training set
+
+==================================================
+Better model found!
+==================================================
+Epoch 6: Train Loss=2.2399, Train Acc=44.84%, Val Acc=62.69%, Test Acc=61.44%, Val Top5=89.53%, Test Top5=89.72%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 321/332 correct (96.69%)
+Combined dataset size: 8416
+
+==================================================
+Better model found!
+==================================================
+Epoch 7: Train Loss=1.4559, Train Acc=61.44%, Val Acc=68.43%, Test Acc=67.67%, Val Top5=92.68%, Test Top5=92.73%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 585/610 correct (95.90%)
+Combined dataset size: 8694
+
+==================================================
+Better model found!
+==================================================
+Epoch 8: Train Loss=1.1809, Train Acc=68.53%, Val Acc=73.78%, Test Acc=73.43%, Val Top5=94.15%, Test Top5=93.93%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 777/810 correct (95.93%)
+Combined dataset size: 8894
+
+==================================================
+Better model found!
+==================================================
+Epoch 9: Train Loss=0.9646, Train Acc=74.49%, Val Acc=76.42%, Test Acc=75.51%, Val Top5=95.61%, Test Top5=94.86%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 889/925 correct (96.11%)
+Combined dataset size: 9009
+Epoch 10: Train Loss=0.8636, Train Acc=76.75%, Val Acc=75.97%, Test Acc=75.30%, Val Top5=95.05%, Test Top5=95.28%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 951/998 correct (95.29%)
+Combined dataset size: 9082
+
+==================================================
+Better model found!
+==================================================
+Epoch 11: Train Loss=0.7702, Train Acc=79.18%, Val Acc=77.83%, Test Acc=77.01%, Val Top5=95.55%, Test Top5=95.74%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1005/1065 correct (94.37%)
+Combined dataset size: 9149
+
+==================================================
+Better model found!
+==================================================
+Epoch 12: Train Loss=0.7137, Train Acc=80.64%, Val Acc=78.95%, Test Acc=77.58%, Val Top5=95.27%, Test Top5=95.33%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1074/1153 correct (93.15%)
+Combined dataset size: 9237
+
+==================================================
+Better model found!
+==================================================
+Epoch 13: Train Loss=0.6680, Train Acc=82.14%, Val Acc=80.02%, Test Acc=78.78%, Val Top5=95.55%, Test Top5=96.06%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1154/1239 correct (93.14%)
+Combined dataset size: 9323
+Epoch 14: Train Loss=0.6144, Train Acc=83.52%, Val Acc=78.73%, Test Acc=78.72%, Val Top5=95.89%, Test Top5=95.17%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1152/1247 correct (92.38%)
+Combined dataset size: 9331
+
+==================================================
+Better model found!
+==================================================
+Epoch 15: Train Loss=0.5844, Train Acc=84.90%, Val Acc=80.14%, Test Acc=80.12%, Val Top5=95.22%, Test Top5=95.23%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1181/1287 correct (91.76%)
+Combined dataset size: 9371
+
+==================================================
+Better model found!
+==================================================
+Epoch 16: Train Loss=0.5283, Train Acc=85.72%, Val Acc=80.87%, Test Acc=79.45%, Val Top5=95.61%, Test Top5=95.59%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1231/1337 correct (92.07%)
+Combined dataset size: 9421
+Epoch 17: Train Loss=0.5214, Train Acc=86.38%, Val Acc=80.47%, Test Acc=80.02%, Val Top5=94.99%, Test Top5=95.74%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1267/1385 correct (91.48%)
+Combined dataset size: 9469
+
+==================================================
+Better model found!
+==================================================
+Epoch 18: Train Loss=0.4804, Train Acc=87.27%, Val Acc=81.20%, Test Acc=80.44%, Val Top5=95.61%, Test Top5=96.00%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1291/1426 correct (90.53%)
+Combined dataset size: 9510
+
+==================================================
+Better model found!
+==================================================
+Epoch 19: Train Loss=0.4503, Train Acc=88.11%, Val Acc=81.71%, Test Acc=80.02%, Val Top5=95.50%, Test Top5=96.11%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1312/1450 correct (90.48%)
+Combined dataset size: 9534
+
+==================================================
+Better model found!
+==================================================
+Epoch 20: Train Loss=0.4140, Train Acc=89.35%, Val Acc=81.82%, Test Acc=81.94%, Val Top5=96.12%, Test Top5=96.47%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1354/1505 correct (89.97%)
+Combined dataset size: 9589
+
+==================================================
+Better model found!
+==================================================
+Epoch 21: Train Loss=0.4101, Train Acc=89.14%, Val Acc=82.44%, Test Acc=82.10%, Val Top5=96.12%, Test Top5=96.37%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1364/1529 correct (89.21%)
+Combined dataset size: 9613
+
+==================================================
+Better model found!
+==================================================
+Epoch 22: Train Loss=0.3602, Train Acc=91.07%, Val Acc=83.06%, Test Acc=81.99%, Val Top5=96.06%, Test Top5=96.94%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1381/1561 correct (88.47%)
+Combined dataset size: 9645
+Epoch 23: Train Loss=0.3413, Train Acc=91.45%, Val Acc=82.95%, Test Acc=83.29%, Val Top5=96.00%, Test Top5=96.63%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1402/1593 correct (88.01%)
+Combined dataset size: 9677
+Epoch 24: Train Loss=0.3211, Train Acc=92.08%, Val Acc=82.50%, Test Acc=83.50%, Val Top5=96.40%, Test Top5=96.52%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1413/1616 correct (87.44%)
+Combined dataset size: 9700
+
+==================================================
+Better model found!
+==================================================
+Epoch 25: Train Loss=0.3248, Train Acc=91.80%, Val Acc=83.29%, Test Acc=83.60%, Val Top5=96.23%, Test Top5=96.94%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1423/1631 correct (87.25%)
+Combined dataset size: 9715
+Epoch 26: Train Loss=0.2984, Train Acc=92.57%, Val Acc=83.29%, Test Acc=84.22%, Val Top5=96.06%, Test Top5=96.78%
+
+==================================================
+Generating pseudo-labels from validation set...
+Pseudo-labels: 1425/1633 correct (87.26%)
+Combined dataset size: 9717
